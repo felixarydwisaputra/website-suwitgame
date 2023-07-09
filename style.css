@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(image/email-pattern.png);
+}
+
+h1{
+     font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: rgb(238, 238, 238);
+    text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.7778174593px 0.7778174593px 0 #aaaaaa, 1.5556349186px 1.5556349186px 0 #aaaaaa, 2.3334523779px 2.3334523779px 0 #aaaaaa, 3.1112698372px 3.1112698372px 0 #aaaaaa, 3.8890872965px 3.8890872965px 0 #aaaaaa, 4.6669047558px 4.6669047558px 0 #aaaaaa, 5.4447222151px 5.4447222151px 0 #aaaaaa, 6.2225396744px 6.2225396744px 0 #aaaaaa, 7.0003571337px 7.0003571337px 0 #aaaaaa, 7.7781745931px 7.7781745931px 0 #aaaaaa;
+}
+
+.container{
+    margin: 50px auto;
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    border: 6px dotted rgb(192, 192, 192);
+}
+
+.area-computer{
+    width: 100%;
+    height: 50%;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.area-computer p{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    right: 10px;
+}
+
+.area-computer img{
+    margin-top: 50px;
+    width: 170px;
+    border-radius: 50%;
+    border: 3px solid rgb(124, 124, 124);
+}
+
+.hasil{
+    z-index: 1;
+    top: 43%;
+    left: 50%;
+    margin-left: -125px;
+    width: 250px;
+    height: 85px;
+    background-color: grey;
+    position: absolute;
+    border-radius: 15px;
+    background-color: white;
+    border: 5px solid lightblue;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.area-player{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(250, 128, 114, .5);
+    position: relative;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.area-player p {
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+}
+
+.area-player ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.area-player ul li img{
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 50%;
+    width: 170px;
+    border: 2px solid rgb(124, 124, 124);
+    transition: .3s;
+    position: relative;
+}
+
+.area-player ul li img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px grey;
+}
+
+.area-player ul li .batu:active, .gunting:active, .kertas:active {
+    top: 5px;
+}
